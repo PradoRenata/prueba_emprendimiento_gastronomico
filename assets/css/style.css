@@ -1,0 +1,35 @@
+body {
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    background-color: #1F1F1F;
+}
+.nav-color {
+    background-color: #262626;
+}
+.orange {
+    color:#F4B981 ;
+}
+.orange-bg {
+    background-color: #F4B981 ;
+}
+.title-font {
+    font-family: 'lobster', sans-serif;
+}
+.footer-bg {
+    background-color: #171717;
+}
+
+@media (max-width: 576px) {
+    header {
+        background-image: url('../img/header_picture.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 8rem;
+        text-shadow: 2px 2px 16px #1a1919;
+    }
+
+    #about img {
+        padding-bottom: 2rem;
+    }
+
+}
